@@ -1,0 +1,71 @@
+Game Plan: FIFA All-Star
+Student Name: Arthur Zhao
+NetID: sz165
+
+1. Overview: this game is a multiplayer game based on Breakout, in which multiple users control the soccer players at the bottom half of the field to
+play against opponents at the upper half of the field. Roughly it's going to look like this:
+
+		|	----	   |
+		|		   |
+		|   +            + |
+		|     +       +    |
+		| +      +         |
+		|		   |	
+		|		   |	
+		|       *          |
+		|	  *	   |
+		|	*	   |
+		|		   |
+		|	----	   |
+where "----" is the gate, "+" represents opponent pads and "*" are pads controlled by the human players. Our goal, obviously, is to shoot the football into
+the gate. This game is inspired by Circus, which demonstrates how Breakout can get extremely interesting if we incorperate it with real life settings. It is
+also inspired by Devilish, which reminds me of the fun of playing games with my brother. 
+
+Why is it interesting? There are lots of funny elements on the soccer field that we can add to the game: referees, fans, the cheering team, etc. Also there 
+are many soccer audio effects I can add into the game to make it interesting.
+
+2. Different Levels I Intend to Build:
+There are many ways I can create different levels: 
+	a. I can change the backgroud, meaning that we now play at a different place;
+	b. I can increase the number of opponent players, thus makes it harder to win;
+	c. I can make the opposing gate smaller and make our gate larger;
+	d. I can set a time limit within which me must goal (like we are now 1-2 and there's only 3 mins left);
+	e. I can add more power-ups or NPCs on the field to make it funnier;
+Clarification: given the limit of time I might only implement 3 levels. Feature d and e listed above might be implemented or might not depending on the 
+time limit.
+
+3. Blocks
+Here is the funny part! As of now there are three major types of blocks that I intend to build:
+	a. "static" player blocks: those opponent player blocks that are always there, like Hazard who is very reliable;
+	b. "dynamic" player blocks: those player blocks that have special effects when hit. Like Neymar, who is kind of a good actor and when we hit him, he
+	will pretend to be fouled and the referee will punish us by making out pads shorter, for example (disclaimer: Neymar is a very respectable player and
+	here I'm just raising an example);
+	c. NPCs: these blocks also have special effects, but they never move. Once hit, they drop power-ups, like drunk fans will drop a beer bottle and
+	whichever player who gets hit has to quit the game...
+
+4. Power ups
+As of now, there are three basic power ups that I can think of:
+	a. Enlarging our pad / shrinking the opponent pads
+	b. Shrinking our gate / Enlarging the opponent gates
+	c. Speeding up the balls
+If I get time, I will try to implement the following power ups:
+	d. Over-head kick: a power up that will enable to corresponding pad such that the next kick made by this pad will bypass all the opponent pads
+	e. Sticker: the pad will be able to hold on to the ball for a certain period of time
+
+5. Treat Keys:
+	a. The Football Fan's Sound Wave(#9 on the keyboard): once enabled, the opponent players are soo disturbed that they cannot move anymore
+	b. McDonalds' Help (#8 on the keyboard): each time its pressed, an opponent player will have to quit because he ate too much McDonalds' before the game
+	c. President's Command (#7): you just bribed the FIFA President so you can jump directly to the next level!
+
+
+6. Something Extra:
+	If I have time, I would continue to implement the following features:
+	1. Moving Referee: it's always interesting to see him hit and when he's hit, he might drop some unexpected power ups. This is very important 
+	because now we have a "neutral" block who is very unpredictable in the sense that he might help you goal or not, and he might give you power ups or
+	power downs
+	2. MVP: after each level we will acclaim the most valuable player in the game. This is a little bit tricky because we need to set up some structure
+	to remember who did what and a standard for performance evaluation, so this might be hard to implement within the time limit. But I think this is 
+	important because it allows players to compete against each other while collabrating
+
+So I will stop here since the above features are already enough for a week. Like I mentioned, some advanced features (2.d, 2.e, 4.d, 4.e and 6) might not be
+implemented, but I will try my best to add them in so as to make the game funnier to play.
