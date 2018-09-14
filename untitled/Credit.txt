@@ -1,0 +1,12 @@
+images:
+    buffs and ball: credit to Professor Robert C. Duvall
+    players and enermies:
+        https://www.deviantart.com/a2nil/art/Fred-Brazilian-Soccer-Player-Vector-Art-459164120
+        https://www.cartoonstock.com/directory/f/famous_footballer.asp
+    background images:
+        https://www.vectorstock.com/royalty-free-vector/green-soccer-field-background-vector-6620088
+        https://pngtree.com/freebackground/flat-white-background_442279.html
+        http://fpvforums.org/black-hole-galaxy-wallpaper.html
+background musics:
+    https://www.mp3juices.cc/
+    Shakira - Waka Waka
